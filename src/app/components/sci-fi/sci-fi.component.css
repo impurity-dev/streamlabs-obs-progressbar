@@ -1,0 +1,48 @@
+#progress-bar-background {
+  background-color: #03050f;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#progress-bar-foreground {
+  animation: fade 3s infinite;
+  background-color: #0eeb6f;
+  box-shadow: 0 0 35px #11847f;
+  width: 40%;
+  height: 20px;
+  border-radius: 3px;
+}
+
+#progress-bar-title {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+#progress-bar-sub-title {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#progress-bar-wrapper {
+  text-align: center;
+}
+
+@keyframes fade {
+  0% {
+    background-color: #0eeb6f;
+  }
+  25% {
+    background-color: #11b187;
+  }
+  50% {
+    background-color: #11847f;
+  }
+  75% {
+    background-color: #11b187;
+  }
+  100% {
+    background-color: #0eeb6f;
+  }
+}
