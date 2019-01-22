@@ -1,0 +1,20 @@
+#loading-line-1 {
+  stroke: #0eeb6f;
+}
+
+#loading-line-2 {
+  stroke:#11b187;
+}
+
+#loading-line-3 {
+  stroke:#11b187;
+}
+
+#loading-line-4 {
+  stroke:#11847f;
+}
+
+#loading-circle {
+  stroke: #11b187;
+  fill: #11847f;
+}
